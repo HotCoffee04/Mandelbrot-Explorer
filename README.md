@@ -20,6 +20,11 @@ By default it's 1024
 
 ``-col``
 Inverts colors. Points that belong to the set will be drawn as white.
+## Compiling
+The code is currently only compilable on Windows.
+Compiling requires [MinGW](https://sourceforge.net/projects/mingw/) installed and the SDL2 development libraries.
+`SetupSDL.bat` is a script I wrote to make the process of installing the SDL2 libraries easier: all you need to do is run the script with administrator privileges and it will download and extract the libraries to `C:\SDL2-2.26.4-mingw`.
+Once both SDL2 and MinGW are installed you can run `compile.bat` and `frac.exe` will be generated.
 
 ## Gallery
 ![img1](https://i.imgur.com/dvd4F0E.png)
