@@ -12,7 +12,7 @@
 ::Install directory
 set "installdir=C:"
 ::Libraries type ("mingw" or "VC")
-set "sdltype=VC"
+set "sdltype=mingw"
 ::Base library version
 set "sdlbaseversion=2.26.4" 
 ::Image library version
